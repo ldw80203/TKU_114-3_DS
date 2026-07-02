@@ -4,8 +4,8 @@ public class UserInfo {
         int userId = 410630536;
         String department = "Information Management";
         int expectedScore = 100;
-        System.out.println("User Name: " + userName);
-        System.out.println("User ID: " + userId);   
+        System.out.println("Name: " + userName);
+        System.out.println("ID: " + userId);   
         System.out.println("Department: " + department);
         System.out.println("Expected Score: " + expectedScore);
     }
