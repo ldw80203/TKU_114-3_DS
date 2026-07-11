@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class QuantityValidation {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+    
+        System.out.print("請輸入商品數量:");
+        int number = sc.nextInt();        
+
+        if(number == 0 || number <0){
+            System.out.print("數量必須大於0，請重新輸入:");
+            int number1 = sc.nextInt();        
+
+        }
+    }
+}
